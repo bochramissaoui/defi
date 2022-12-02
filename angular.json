@@ -23,9 +23,16 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/css/tailwind.css",
+              "src/styles.css" , 
+              "src/css/all.min.css",
+              "src/css/tooplate-antique-cafe.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/js/jquery-3.6.0.min.js",
+              "src/js/parallax.min.js",
+              "src/js/jquery.singlePageNav.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -90,9 +97,16 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/css/tailwind.css",
+              "src/styles.css" , 
+              "src/css/all.min.css",
+              "src/css/tooplate-antique-cafe.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/js/jquery-3.6.0.min.js",
+              "src/js/parallax.min.js",
+              "src/js/jquery.singlePageNav.min.js"
+            ]
           }
         }
       }

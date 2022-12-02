@@ -1,0 +1,16 @@
+<div style="background-image: url('https://img.freepik.com/vecteurs-libre/fond-journee-mondiale-du-sida-plat-dessine-main_52683-75183.jpg?w=2000');background-repeat:no-repeat;background-size: cover; height:760px">
+<form (ngSubmit) = "onSubmit()" style="align-items: centre;text-align:center">
+    <h3 style="font-size: 50px; padding-top: 100px;" >Posez moi votre question</h3>
+    <textarea type="text" class ="form-control" id ="prompt" placeholder="Exp : Les symptôme De Sida"
+     name = "prompt" #Q style="width: 350px ; height : 200px ; border-radius: 20px; margin-left:580px ;margin-top: 50px;">
+</textarea>
+     <!-- <select class ="form-control" id ="prompt"
+     name = "prompt" #language>
+    <option>French</option>
+    </select> -->
+    <button type="button"type ="submit" style="margin-top:20px ; "class="btn btn-outline-secondary">Submit</button>
+    </form> 
+    <div  style="width: 18rem; margin-left: 620px;margin-top: 50px; color: #000;" *ngIf="here==true">
+        <h3>{{trans}}</h3>
+      </div>
+</div>
